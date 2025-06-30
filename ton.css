@@ -1,0 +1,230 @@
+*,*::before,*: :after€ box-sizing: inherit;
+
+
+html,body{
+    box-sizing:border-box;
+}
+
+
+body{
+    height: 5000px;
+}
+
+
+nav{
+ font-size: 27px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    text-align: center;
+    background-color: white;
+z-index: 3;
+}
+
+
+nav a{
+    
+      text-decoration: none;
+    color: black;
+    padding: 18px;
+    display: inline-block;
+}
+
+.box{
+
+    padding: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+}
+
+.box2{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 140px;
+position: relative;
+    text-align: center;
+color: rgb(100, 100, 255);
+z-index: 2;
+
+}
+
+.box3{
+text-align: center;
+padding: 20px;
+font-size: 18px;
+}
+
+.section{
+
+ position: relative;
+    left: 400px;
+    right: 400px;
+    width: 600px;
+    height: 600px;
+}
+
+.section2{
+    position: relative;
+    left: -400px;
+    right: -400px;
+    width: -600px;
+    height: -600px;
+    
+}
+
+.section2{
+
+    width: 10px;
+    height: auto;
+}
+
+
+
+.info .info-description{
+text-align: center;
+font-size: 30px;
+}
+
+
+.info{
+    margin-bottom: 6rem;
+}
+
+.info .network-info{
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.info .network-info .stat{
+    width: 17%;
+    background-color: var(--button_light_secondary);
+    background-color: #f5f4f4;
+    padding: 24px;
+    border-radius: 24px;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+
+
+.info .network-info .stat:hover{
+    background-color:#d5d5d5;
+}
+
+
+
+
+.info .network-info .stat-titlel{
+margin-bottom: 12px;
+
+}
+
+
+
+
+
+.info .network-info .stat-count{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info .network-info .stat img{
+position: absolute;
+right: 0;
+top: 50%;
+transform: translate(30%, -50%);
+height: 64px;
+opacity: 5%;
+
+}
+
+.info .network-info .stat .stat-titlel,.info .network-info .stat .stat-count{
+
+    position: relative;
+   }
+
+ 
+
+
+.Finance{
+
+ display: flex;
+   gap: 30px;
+   justify-content: center;
+}
+
+
+.freedom{
+    width: 330px;
+    height: 260px;
+    background-color: #f5f4f4;
+    border-radius: 20px;
+   
+}
+
+.freedom:hover{
+    background-color:#d5d5d5 ;
+}
+
+.Nominator{
+font-size: 19px;
+    padding-left: 27px;
+    padding-top: 45px;
+   
+}
+
+.Explore{
+    padding-left: 27px;
+    padding-top: 60px;
+    color: rgb(26, 136, 254);
+    
+}
+
+.Explore1{
+    
+    padding-left: 27px;
+    padding-top: 15px;
+    color: rgb(26, 136, 254);
+
+}
+    
+.Explore2{
+     padding-left: 27px;
+    padding-top: 80px;
+    color: rgb(26, 136, 254);
+}
+
+.freedom1{
+    padding-left: 425px;
+    font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(26, 136, 254);
+}
+
+
+.img{
+
+   
+  position: relative;
+  top: -220px;
+left: 30px;
+
+}
+
+
+.Unlocking{
+    background-color: pink;
+}
+
+.sep{
+    background-color:greenyellow;
+}

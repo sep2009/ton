@@ -95,7 +95,7 @@ font-size: 30px;
 .info .network-info{
   
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
@@ -218,4 +218,173 @@ a {
   top: -220px;
 left: 30px;
 
+}
+
+
+.sep{
+    height: 20%;
+    width: auto;
+}
+
+
+
+.Use3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 10px;
+}
+
+.Use{
+   display: flex;
+   gap: 50px;
+  padding-left: 400px;
+   justify-content: left
+}
+
+.Use2{
+    text-align: center;
+    padding-top: 30px;
+  direction: ltr;          
+  text-align: left;
+}
+
+.Use5{
+    color: #7d7b7b;
+}
+
+.Eng{
+    padding-left: 130px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+
+.use6{
+
+}
+
+.use6:hover{
+    color: rgb(28, 97, 225);
+}
+
+
+.Build{
+    background-color: #12172c;
+    height: 20%;
+    width: 100%;
+}
+
+
+.boxes{
+    background-color: rgba(8, 48, 114, 0.5);
+    width: 1000px;
+    height: 450px;
+    border-radius: 32px;
+    margin-left: 430px;
+    margin-top: 30px;
+}
+
+.boxes1{
+    background-color: rgba(8, 48, 114, 0.5);
+    width: 300px;
+    height: 180px;
+    border-radius: 32px;
+    margin-left: 430px;
+    margin-top: 25px;
+}
+
+
+.Build1{
+
+text-align: center;
+color: #ffffff;
+position: relative;
+top: 110px;
+}
+
+.Build2{
+   position: absolute;
+   left: 750px;
+   top: 2430px;
+   color: #ffffff;
+}
+
+.Build3{
+    position: absolute;
+   left: 750px;
+   top: 2500px;
+   color: #ffffff;
+}
+
+
+.boxes2{
+    background-color: rgb(255, 255, 255);
+    width: 135px;
+    height: 40px;
+    border-radius: 32px;
+    position: absolute;
+   left: 750px;
+   top: 2630px;
+   z-index: 1;
+}
+
+
+.Build4{
+    position: absolute;
+   left: 762px;
+   top: 2640px;
+   z-index: 3;
+   color: #224de6;
+}
+
+.Build5{
+ position: absolute;
+   left: 475px;
+   top: 2700px;
+   color: #ffffff
+}
+
+.Build6{
+   position: absolute;
+   left: 505px;
+   top: 2455px;
+   color: #ffffff
+}
+
+
+.Build7{
+color: #ffffff;
+}
+
+.Build7:hover{
+    transform: scale(50%);
+}
+
+.Build8{
+    position: absolute;
+   left: 475px;
+   top: 2900px;
+   color: white;
+}
+
+
+.Build9{
+    position: absolute;
+   left: 475px;
+   top: 2945px;
+   color: #ffffff;
+}
+
+a{
+    direction: none;
+    color: #000000;
+}
+
+
+.Build10{
+   margin-top: 150px;
+   
+}
+
+.Build11{
+  
 }

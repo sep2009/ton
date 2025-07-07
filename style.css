@@ -7,7 +7,7 @@ html,body{
 
 
 body{
-    height: 8000px;
+    height: 5000px;
 }
 
 
@@ -83,7 +83,7 @@ font-size: 18px;
 
 
 .Unlocking{
-    height: 10%;
+    height: 15%;
     width: auto;
 }
 
@@ -157,7 +157,7 @@ left: 30px;
 
 
 .sep{
-    height: 10%;
+    height: 16%;
     width: auto;
 }
 
@@ -229,7 +229,7 @@ left: 30px;
 
 
 .Build{
-    height: 12.5%;
+    height: 18%;
     width: auto;
 }
 
@@ -333,7 +333,7 @@ a{
 
 
 .Dive{
-    height: 10%;
+    height: 16%;
     width: auto;
 }
 
@@ -438,7 +438,7 @@ a{
 
 .Telegram{
     background-color: #d5d5d5;
-    height: 10%;
+    height: 17%;
     width: auto;
 }
 

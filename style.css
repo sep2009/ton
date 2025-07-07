@@ -7,7 +7,7 @@ html,body{
 
 
 body{
-    height: 5000px;
+    height: 8000px;
 }
 
 
@@ -82,75 +82,10 @@ font-size: 18px;
 
 
 
-.info .info-description{
-text-align: center;
-font-size: 30px;
+.Unlocking{
+    height: 10%;
+    width: auto;
 }
-
-
-.info{
-    margin-bottom: 6rem;
-}
-
-.info .network-info{
-  
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-
-.info .network-info .stat{
-    width: 17%;
-    background-color: var(--button_light_secondary);
-    background-color: #f5f4f4;
-    padding: 24px;
-    border-radius: 24px;
-    position: relative;
-    overflow: hidden;
-    
-    
-}
-
-
-.info .network-info .stat:hover{
-    background-color:#d5d5d5;
-}
-
-
-
-
-.info .network-info .stat-titlel{
-margin-bottom: 12px;
-
-}
-
-
-
-
-
-.info .network-info .stat-count{
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.info .network-info .stat img{
-position: absolute;
-right: 0;
-top: 50%;
-transform: translate(30%, -50%);
-height: 64px;
-opacity: 5%;
-
-}
-
-.info .network-info .stat .stat-titlel,.info .network-info .stat .stat-count{
-
-    position: relative;
-   }
-
- 
-
 
 .Finance{
 
@@ -222,7 +157,7 @@ left: 30px;
 
 
 .sep{
-    height: 20%;
+    height: 10%;
     width: auto;
 }
 
@@ -293,25 +228,31 @@ left: 30px;
 }
 
 
+.Build{
+    height: 12.5%;
+    width: auto;
+}
+
+
 .Build1{
 
 text-align: center;
 color: #ffffff;
 position: relative;
-top: 110px;
+top: 120px;
 }
 
 .Build2{
    position: absolute;
    left: 750px;
-   top: 2430px;
+   top: 3680px;
    color: #ffffff;
 }
 
 .Build3{
     position: absolute;
    left: 750px;
-   top: 2500px;
+   top: 3770px;
    color: #ffffff;
 }
 
@@ -323,7 +264,7 @@ top: 110px;
     border-radius: 32px;
     position: absolute;
    left: 750px;
-   top: 2630px;
+   top: 3900px;
    z-index: 1;
 }
 
@@ -331,7 +272,7 @@ top: 110px;
 .Build4{
     position: absolute;
    left: 762px;
-   top: 2640px;
+   top: 3910px;
    z-index: 3;
    color: #224de6;
 }
@@ -339,14 +280,14 @@ top: 110px;
 .Build5{
  position: absolute;
    left: 475px;
-   top: 2700px;
+   top: 3960px;
    color: #ffffff
 }
 
 .Build6{
    position: absolute;
    left: 505px;
-   top: 2455px;
+   top: 3700px;
    color: #ffffff
 }
 
@@ -362,7 +303,7 @@ color: #ffffff;
 .Build8{
     position: absolute;
    left: 475px;
-   top: 2900px;
+   top: 4150px;
    color: white;
 }
 
@@ -370,13 +311,13 @@ color: #ffffff;
 .Build9{
     position: absolute;
    left: 475px;
-   top: 2945px;
+   top: 4200px;
    color: #ffffff;
 }
 
 a{
     direction: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 
@@ -387,4 +328,267 @@ a{
 
 .Build11{
   
+}
+
+
+
+.Dive{
+    height: 10%;
+    width: auto;
+}
+
+
+.Dive1{
+    position: relative;
+    left: 450px;
+    top: 20px;
+    color: #ffffff;
+}
+
+.Dive5{
+    width: 1000px;
+    height: 250px;
+    background-color: #224de6;
+    border-radius: 32px;
+    position: relative;
+    left: 450px;
+    bottom: 50px;
+}
+
+
+
+.Dive2{
+    position: relative;
+    left: 500px;
+    top: 120px;
+    z-index: 3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.Dive3{
+    position: relative;
+    left: 500px;
+    top: 135px;
+    z-index: 3;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.Dive4{
+    position: relative;
+    left: 523px;
+    top: 166px;
+    z-index: 3;
+    font-size: 20px;
+    color: #224de6;
+}
+
+
+.Dive6{
+    position: relative;
+    overflow: hidden;
+    left: 1000px;
+    bottom: 250px;
+    color: #ffffff;
+}
+
+
+.Dive7{
+    position: relative;
+    left: 507px;
+   bottom: 301px;
+    width: 120px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 32px;
+}
+
+
+.Dive8{
+     position: relative;
+    left: 657px;
+    bottom: 335px;
+    z-index: 3;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.Dive9{
+     position: relative;
+    left: 780px;
+    bottom: 357px;
+    z-index: 3;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
+.Dive10{
+    position: relative;
+    bottom: 280px;
+}
+
+
+
+.Telegram{
+    background-color: #d5d5d5;
+    height: 10%;
+    width: auto;
+}
+
+.Telegram1{
+    position: relative;
+    left: 300px;
+    top: 50px;
+    font-size: 45px;
+}
+
+
+.Telegram2{
+    position: relative;
+    left: 300px;
+    top: 50px;
+    font-size: 45px;
+}
+
+
+.Telegram3{
+    position: relative;
+    left: 650px;
+    top: 8px;
+    color: #0062ff;
+    font-size: 35px;
+}
+
+
+.Telegram4{
+    position: relative;
+    left: 600px;
+    bottom: 25px;
+}
+
+.Telegram5{
+    width: 340px;
+    height: 500px;
+    border-radius: 32px;
+    background-color: #0062ff;
+    position: relative;
+    left: 300px;
+}
+
+
+.Telegram6{
+    width: 340px;
+    height: 500px;
+    border-radius: 32px;
+    background-color: #e5e7eb;
+    position: relative;
+    left: 660px;
+    bottom: 500px;
+}
+
+
+.Telegram7{
+    width: 340px;
+    height: 500px;
+    border-radius: 32px;
+    background-color: #3a3b42;
+    position: relative;
+    left: 1020px;
+    bottom: 1000;
+}
+
+
+
+.Telegram8{
+    width: 340px;
+    height: 500px;
+    border-radius: 32px;
+    background-color: #e5e7eb;
+    position: relative;
+    left: 1380px;
+    bottom: 1500;
+}
+
+
+.Telegram9{
+
+text-align: center;
+position: relative;
+top: 190px;
+}
+
+
+.Telegram10{
+text-align: center;
+}
+
+
+.Telegram11{
+
+text-align: center;
+position: relative;
+top: 190px;
+}
+
+.Telegram12{
+text-align: center;
+}
+
+
+.Telegram13{
+   position: relative;
+   bottom: 274px;
+   left: 40px;
+   font-size: 21px;
+   color: #ffffff;
+}
+
+
+.Telegram14{
+   position: relative;
+   top: 74px;
+   left: 40px;
+   font-size: 21px;
+}
+
+
+.Telegram15{
+   position: relative;
+   bottom: 274px;
+   left: 40px;
+   font-size: 21px;
+   color: #ffffff;
+}
+
+
+.Telegram16{
+   position: relative;
+   top: 74px;
+   left: 40px;
+   font-size: 21px;
+}
+
+.Telegram17{
+    position: relative;
+    left: 1350px;
+    bottom: 80px;
+    z-index: 3;
+    color: #ffffff;
+}
+
+.Telegram18{
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left: 1337px;
+    bottom: 107px;
 }
